@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		95EBC2671AE9054500F7EB30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBC2661AE9054500F7EB30 /* AppDelegate.swift */; };
-		95EBC2691AE9054500F7EB30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBC2681AE9054500F7EB30 /* ViewController.swift */; };
 		95EBC26C1AE9054500F7EB30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EBC26A1AE9054500F7EB30 /* Main.storyboard */; };
 		95EBC26E1AE9054500F7EB30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95EBC26D1AE9054500F7EB30 /* Images.xcassets */; };
 		95EBC2711AE9054500F7EB30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95EBC26F1AE9054500F7EB30 /* LaunchScreen.xib */; };
 		95EBC27D1AE9054500F7EB30 /* timelineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBC27C1AE9054500F7EB30 /* timelineTests.swift */; };
+		95EBC28B1AE90D5700F7EB30 /* EventScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBC28A1AE90D5700F7EB30 /* EventScrollViewController.swift */; };
+		95EBC2941AE93CFB00F7EB30 /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBC2921AE93CFB00F7EB30 /* EventCollectionViewCell.swift */; };
+		95EBC2951AE93CFB00F7EB30 /* EventCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95EBC2931AE93CFB00F7EB30 /* EventCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		95EBC2611AE9054500F7EB30 /* timeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EBC2651AE9054500F7EB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95EBC2661AE9054500F7EB30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		95EBC2681AE9054500F7EB30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95EBC26B1AE9054500F7EB30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95EBC26D1AE9054500F7EB30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		95EBC2701AE9054500F7EB30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		95EBC2761AE9054500F7EB30 /* timelineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = timelineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EBC27B1AE9054500F7EB30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95EBC27C1AE9054500F7EB30 /* timelineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timelineTests.swift; sourceTree = "<group>"; };
+		95EBC28A1AE90D5700F7EB30 /* EventScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventScrollViewController.swift; sourceTree = "<group>"; };
+		95EBC2921AE93CFB00F7EB30 /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
+		95EBC2931AE93CFB00F7EB30 /* EventCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +82,10 @@
 			isa = PBXGroup;
 			children = (
 				95EBC2661AE9054500F7EB30 /* AppDelegate.swift */,
-				95EBC2681AE9054500F7EB30 /* ViewController.swift */,
 				95EBC26A1AE9054500F7EB30 /* Main.storyboard */,
+				95EBC28A1AE90D5700F7EB30 /* EventScrollViewController.swift */,
+				95EBC2921AE93CFB00F7EB30 /* EventCollectionViewCell.swift */,
+				95EBC2931AE93CFB00F7EB30 /* EventCollectionViewCell.xib */,
 				95EBC26D1AE9054500F7EB30 /* Images.xcassets */,
 				95EBC26F1AE9054500F7EB30 /* LaunchScreen.xib */,
 				95EBC2641AE9054500F7EB30 /* Supporting Files */,
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					95EBC2601AE9054500F7EB30 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = FJZS9C6A7Z;
 					};
 					95EBC2751AE9054500F7EB30 = {
 						CreatedOnToolsVersion = 6.3;
@@ -193,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95EBC26C1AE9054500F7EB30 /* Main.storyboard in Resources */,
+				95EBC2951AE93CFB00F7EB30 /* EventCollectionViewCell.xib in Resources */,
 				95EBC2711AE9054500F7EB30 /* LaunchScreen.xib in Resources */,
 				95EBC26E1AE9054500F7EB30 /* Images.xcassets in Resources */,
 			);
@@ -212,8 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95EBC2691AE9054500F7EB30 /* ViewController.swift in Sources */,
 				95EBC2671AE9054500F7EB30 /* AppDelegate.swift in Sources */,
+				95EBC2941AE93CFB00F7EB30 /* EventCollectionViewCell.swift in Sources */,
+				95EBC28B1AE90D5700F7EB30 /* EventScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +349,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = timeline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -350,9 +362,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = timeline/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
