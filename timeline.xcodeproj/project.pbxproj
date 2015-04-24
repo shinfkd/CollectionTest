@@ -14,7 +14,10 @@
 		95EBC27D1AE9054500F7EB30 /* timelineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBC27C1AE9054500F7EB30 /* timelineTests.swift */; };
 		95EBC28B1AE90D5700F7EB30 /* EventScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBC28A1AE90D5700F7EB30 /* EventScrollViewController.swift */; };
 		95EBC2941AE93CFB00F7EB30 /* EventCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EBC2921AE93CFB00F7EB30 /* EventCollectionViewCell.swift */; };
-		95EBC2951AE93CFB00F7EB30 /* EventCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95EBC2931AE93CFB00F7EB30 /* EventCollectionViewCell.xib */; };
+		E14DE57D1AE9DEC6007A1365 /* EventCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95EBC2931AE93CFB00F7EB30 /* EventCollectionViewCell.xib */; };
+		E14DE5801AEA0023007A1365 /* TimeTableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DE57E1AEA0023007A1365 /* TimeTableCollectionViewCell.swift */; };
+		E14DE5811AEA0023007A1365 /* TimeTableCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E14DE57F1AEA0023007A1365 /* TimeTableCollectionViewCell.xib */; };
+		E14DE5831AEA068C007A1365 /* TimeTableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DE5821AEA068C007A1365 /* TimeTableCollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		95EBC28A1AE90D5700F7EB30 /* EventScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventScrollViewController.swift; sourceTree = "<group>"; };
 		95EBC2921AE93CFB00F7EB30 /* EventCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCollectionViewCell.swift; sourceTree = "<group>"; };
 		95EBC2931AE93CFB00F7EB30 /* EventCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventCollectionViewCell.xib; sourceTree = "<group>"; };
+		E14DE57E1AEA0023007A1365 /* TimeTableCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableCollectionViewCell.swift; sourceTree = "<group>"; };
+		E14DE57F1AEA0023007A1365 /* TimeTableCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeTableCollectionViewCell.xib; sourceTree = "<group>"; };
+		E14DE5821AEA068C007A1365 /* TimeTableCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeTableCollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,9 @@
 				95EBC28A1AE90D5700F7EB30 /* EventScrollViewController.swift */,
 				95EBC2921AE93CFB00F7EB30 /* EventCollectionViewCell.swift */,
 				95EBC2931AE93CFB00F7EB30 /* EventCollectionViewCell.xib */,
+				E14DE5821AEA068C007A1365 /* TimeTableCollectionViewController.swift */,
+				E14DE57E1AEA0023007A1365 /* TimeTableCollectionViewCell.swift */,
+				E14DE57F1AEA0023007A1365 /* TimeTableCollectionViewCell.xib */,
 				95EBC26D1AE9054500F7EB30 /* Images.xcassets */,
 				95EBC26F1AE9054500F7EB30 /* LaunchScreen.xib */,
 				95EBC2641AE9054500F7EB30 /* Supporting Files */,
@@ -199,8 +208,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14DE5811AEA0023007A1365 /* TimeTableCollectionViewCell.xib in Resources */,
+				E14DE57D1AE9DEC6007A1365 /* EventCollectionViewCell.xib in Resources */,
 				95EBC26C1AE9054500F7EB30 /* Main.storyboard in Resources */,
-				95EBC2951AE93CFB00F7EB30 /* EventCollectionViewCell.xib in Resources */,
 				95EBC2711AE9054500F7EB30 /* LaunchScreen.xib in Resources */,
 				95EBC26E1AE9054500F7EB30 /* Images.xcassets in Resources */,
 			);
@@ -221,7 +231,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				95EBC2671AE9054500F7EB30 /* AppDelegate.swift in Sources */,
+				E14DE5831AEA068C007A1365 /* TimeTableCollectionViewController.swift in Sources */,
 				95EBC2941AE93CFB00F7EB30 /* EventCollectionViewCell.swift in Sources */,
+				E14DE5801AEA0023007A1365 /* TimeTableCollectionViewCell.swift in Sources */,
 				95EBC28B1AE90D5700F7EB30 /* EventScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +436,7 @@
 				95EBC2821AE9054500F7EB30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95EBC2831AE9054500F7EB30 /* Build configuration list for PBXNativeTarget "timelineTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +445,7 @@
 				95EBC2851AE9054500F7EB30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
